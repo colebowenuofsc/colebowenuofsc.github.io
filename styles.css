@@ -1,0 +1,151 @@
+body {
+	font-family:arial;
+	background:#260104;
+} 
+#headandnav {
+	background:#A60303; 
+	padding:5px;
+}
+header {
+	text-align:center; 
+} 
+header h1 {
+	color:white;
+	border: 4px solid gray; 
+	border-radius:25px; 
+}
+
+nav {
+	text-align:center;
+	
+} 
+nav li {
+	display:inline; 
+	 
+	
+}
+nav a {
+	text-decoration:none;
+	color:black;
+	background:#A6785D; 
+	padding:3px; 
+	text-align:center; 
+	padding-right:3px;
+	margin-right:3px; 
+	border: 1px solid black; 
+}
+a:hover { 
+	background-color:#DE233C; 
+	border: 5px dotted gray; 
+} 
+main { 
+	background:#A6785D;
+	padding:5px;	
+}
+footer {	
+	text-align:center;
+	background:#A60303; 
+	padding:5px;
+} 
+
+#content {
+	width:80%;
+	margin:auto; 
+} 
+#slideshow { 
+	display: block; 
+	margin-left:30px; 
+	
+} 
+#aboutme{ 
+	text-align:center; 
+	
+} 
+#moreaboutlink {
+	color:blue; 
+	text-align:center; 
+} 
+#careerplans {
+	text-align:center; 
+} 
+#directions h4 { 
+	color:#260104; 
+} 
+#directions p {
+	color:#260104; 
+} 
+
+#contactme { 
+	text-align:center; 
+	border:7px groove #260104; 
+	padding-bottom:10px;
+	background:#FA4D28;
+} 
+#contactme h1:hover{
+	
+	font-size: 50px; 
+}
+#form {
+	border:7px ridge #260104; 
+	border-radius:25px; 
+	padding-top:10px; 
+}
+#form label {
+	border: 2px solid black; 
+	border-radius:25px; 
+	padding:3px; 
+	background:#A6785D;  
+} 
+#form input,textarea {
+	border: 2px solid black; 
+} 
+#moreaboutcareerlink{ 
+	color:blue; 
+}
+#quiz {
+	text-align:center; 
+	border: 3px solid black; 
+	padding:5px; 
+}
+#results {
+	text-align:center; 
+	border:5px ridge black;
+	background:#D9665B;
+} 
+#mainimage {
+	display:block; 
+	margin:auto; 
+	border:5px groove brown;
+}
+#imagebuttons { 
+	text-align:center; 
+	padding:5px; 
+} 
+#video { 
+	display:block; 
+	margin:auto; 
+	text-align:center; 
+} 
+.column-containerone {
+	display:flex; 
+
+} 
+.direction-col{
+	flex: 50; 
+	text-align:center; 
+	margin-top:70px; 
+} 
+.map-col {
+	flex:50; 
+} 
+.hidden {
+	display:none; 
+} 
+.normal {
+	color:black; 
+} 
+@media (max-width: 750px) { 
+	[class*="column-containerone"] { 
+		width: 100%; 
+	} 
+} 

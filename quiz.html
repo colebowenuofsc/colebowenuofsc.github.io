@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="utf-8"> 
+	<title>Project</title> 
+	<link rel="stylesheet" href="styles.css"> 
+</head> 
+<body>
+	<div id="content">
+		<div id="headandnav">
+			<header>
+				<h1> Cole Bowen </h1>
+			</header>
+			<nav> 
+				<ul> 
+					<li><a href="index.html">Home </a></li> &nbsp
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</div>
+		<main>
+			<div id="quiz"> 
+				<h3>Test your web development knowledge </h3> 
+				<label for="questionone"> If an element gets a line of it's own, this is considered a(n) ________ element </label>
+				<br> 
+				<select name="questionone"id="questionone">
+					<option>single  </option>
+					<option>block  </option>
+					<option>inline</option>
+					<option>complex </option>
+				</select> 
+				 <br>
+				 <label for="questiontwo"> Where should the javascript be linked on an HTML page? </label>
+				<br> 
+				<select name="questiontwo"id="questiontwo">
+					<option>Before the head </option>
+					<option>In the head </option>
+					<option>At the very  top of the body </option>
+					<option>At the very bottom of the body</option>
+				</select> 
+				<br>
+				<label for="questionthree"> How do you reference an id in css?</label>
+				<br> 
+				<select name="questionthree"id="questionthree">
+					<option>Use a #</option>
+					<option>Use a $ </option>
+					<option>Use a . </option>
+					<option>Use a ~ </option>
+				</select> 
+				<br>
+				<label for="questionfour"> What tag is used to code dropdown inputs? </label>
+				<br> 
+				<select name="questionfour"id="questionfour">
+					<option>dropdown</option>
+					<option>option</option>
+					<option> pick</option>
+					<option>under</option>
+				</select> 
+				<br>
+				<br>
+				 <button onclick="submitAnswers()"> Check your Score </button> 
+			</div> 
+			<div id="results" class="hidden"> 
+				<h4> Here's how you did </h4> 
+				<p id="questiononeresult"> </p>
+				<p id="questiontworesult"></p>
+				<p id="questionthreeresult"></p>
+				<p id="questionfourresult"> </p> 
+				<strong><p id="score"></p></strong>
+			</div> 
+			
+			
+		</main>
+		<footer>
+			<p>&#169;My copywrite </p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body> 
+</html>
